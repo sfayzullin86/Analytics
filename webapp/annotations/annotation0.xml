@@ -46,7 +46,7 @@
 				</Annotation>
 			</Annotations>
 			<Annotations Target="ZSTS_SRV.TICKET">
-				<Annotation Term="UI.Chart">
+				<Annotation Term="UI.Chart" Qualifier="categoriesChart">
 					<Record Type="UI.ChartDefinitionType">
 						<PropertyValue Property="MeasureAttributes"/>
 						<PropertyValue Property="DimensionAttributes"/>
