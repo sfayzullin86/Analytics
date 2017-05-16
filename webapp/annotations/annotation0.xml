@@ -45,6 +45,7 @@
 					</Collection>
 				</Annotation>
 			</Annotations>
+			<Annotations Target="ZSTS_SRV.TICKET"/>
 		</Schema>
 	</edmx:DataServices>
 </edmx:Edmx>
