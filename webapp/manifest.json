@@ -22,8 +22,8 @@
 			}
 		},
 		"sourceTemplate": {
-			"id": "OVP.smartovptemplate",
-			"version": "1.41.1"
+			"id": "OVP.cardtemplate",
+			"version": "0.0.0"
 		}
 	},
 	"sap.ui": {
@@ -76,6 +76,18 @@
 	"sap.ovp": {
 		"globalFilterModel": "ZSTS_SRV",
 		"globalFilterEntityType": "TICKETSet",
-		"cards": {}
+		"cards": {
+			"Analytics_card00": {
+				"model": "ZSTS_SRV",
+				"template": "sap.ovp.cards.table",
+				"settings": {
+					"title": "{{Analytics_card00_title}}",
+					"subTitle": "{{Analytics_card00_subTitle}}",
+					"entitySet": "TICKETOVERDUESet",
+					"addODataSelect": "false",
+					"annotationPath": "com.sap.vocabularies.UI.v1.LineItem"
+				}
+			}
+		}
 	}
 }
