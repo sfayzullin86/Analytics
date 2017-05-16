@@ -51,7 +51,7 @@
 						<PropertyValue Property="MeasureAttributes">
 							<Collection>
 								<Record Type="UI.ChartMeasureAttributeType">
-									<PropertyValue Property="Measure" PropertyPath="Priority"/>
+									<PropertyValue Property="Measure" PropertyPath="TicketCount"/>
 								</Record>
 							</Collection>
 						</PropertyValue>
