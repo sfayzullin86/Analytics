@@ -1,0 +1,35 @@
+{
+  "welcomeFile": "index.html",
+  "routes": [
+    {
+      "path": "/sap/opu/odata/sap/ZSTS_SRV",
+      "target": {
+        "type": "destination",
+        "name": "s4h-onpremise-http",
+        "entryPath": "/sap/opu/odata/sap/ZSTS_SRV"
+      },
+      "description": "S/4HANA HTTP API"
+    },
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "preferLocal": true,
+        "entryPath": "/resources",
+        "version": "1.44.8"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources",
+        "version": "1.44.8"
+      },
+      "description": "SAPUI5 Test Resources"
+    }
+  ]
+}
