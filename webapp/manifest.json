@@ -99,7 +99,7 @@
 					"subTitle": "{{Analytics_card00_subTitle}}",
 					"entitySet": "TICKETOVERDUESet",
 					"addODataSelect": "false",
-					"annotationPath": "com.sap.vocabularies.UI.v1.LineItem"
+					"annotationPath": "com.sap.vocabularies.UI.v1.LineItem#ticketOverdueView"
 				}
 			}
 		}
