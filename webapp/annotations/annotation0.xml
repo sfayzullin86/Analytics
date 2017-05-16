@@ -25,6 +25,8 @@
 		<edmx:Include Alias="UI" Namespace="com.sap.vocabularies.UI.v1"/>
 	</edmx:Reference>
 	<edmx:DataServices>
-		<Schema xmlns="http://docs.oasis-open.org/odata/ns/edm"/>
+		<Schema xmlns="http://docs.oasis-open.org/odata/ns/edm">
+			<Annotations Target="ZSTS_SRV.TICKETOVERDUE"/>
+		</Schema>
 	</edmx:DataServices>
 </edmx:Edmx>

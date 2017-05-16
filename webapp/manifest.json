@@ -73,6 +73,10 @@
 			"ZSTS_SRV": {
 				"dataSource": "ZSTS_SRV",
 				"settings": {}
+			},
+			"@i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"uri": "i18n/i18n.properties"
 			}
 		},
 		"extends": {
