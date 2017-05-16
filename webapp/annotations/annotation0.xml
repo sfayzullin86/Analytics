@@ -49,7 +49,14 @@
 				<Annotation Term="UI.Chart" Qualifier="categoriesChart">
 					<Record Type="UI.ChartDefinitionType">
 						<PropertyValue Property="MeasureAttributes"/>
-						<PropertyValue Property="DimensionAttributes"/>
+						<PropertyValue Property="DimensionAttributes">
+							<Collection>
+								<Record Type="UI.ChartDimensionAttributeType">
+									<PropertyValue Property="Dimension" PropertyPath="SolcatTxt"/>
+									<PropertyValue Property="Role" EnumMember="UI.ChartDimensionRoleType/Series"/>
+								</Record>
+							</Collection>
+						</PropertyValue>
 						<PropertyValue Property="Actions"/>
 						<PropertyValue Property="ChartType" EnumMember="UI.ChartType/Donut"/>
 					</Record>
