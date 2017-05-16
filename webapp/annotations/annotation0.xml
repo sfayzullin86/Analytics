@@ -45,7 +45,16 @@
 					</Collection>
 				</Annotation>
 			</Annotations>
-			<Annotations Target="ZSTS_SRV.TICKET"/>
+			<Annotations Target="ZSTS_SRV.TICKET">
+				<Annotation Term="UI.Chart">
+					<Record Type="UI.ChartDefinitionType">
+						<PropertyValue Property="MeasureAttributes"/>
+						<PropertyValue Property="DimensionAttributes"/>
+						<PropertyValue Property="Actions"/>
+						<PropertyValue Property="ChartType" EnumMember="UI.ChartType/Donut"/>
+					</Record>
+				</Annotation>
+			</Annotations>
 		</Schema>
 	</edmx:DataServices>
 </edmx:Edmx>
