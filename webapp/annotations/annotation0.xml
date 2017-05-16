@@ -26,7 +26,9 @@
 	</edmx:Reference>
 	<edmx:DataServices>
 		<Schema xmlns="http://docs.oasis-open.org/odata/ns/edm">
-			<Annotations Target="ZSTS_SRV.TICKETOVERDUE"/>
+			<Annotations Target="ZSTS_SRV.TICKETOVERDUE">
+				<Annotation Term="UI.LineItem" Qualifier="ticketOverdueView"/>
+			</Annotations>
 		</Schema>
 	</edmx:DataServices>
 </edmx:Edmx>
