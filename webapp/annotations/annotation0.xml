@@ -32,6 +32,10 @@
 						<Record Type="UI.DataField">
 							<PropertyValue Property="Value" Path="TicketId"/>
 						</Record>
+						<Record Type="UI.DataField">
+							<PropertyValue Property="Value" Path="PriorityTxt"/>
+							<PropertyValue Property="Criticality" EnumMember="UI.CriticalityType/Critical"/>
+						</Record>
 					</Collection>
 				</Annotation>
 			</Annotations>
