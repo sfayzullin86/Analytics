@@ -59,6 +59,11 @@
 						</PropertyValue>
 						<PropertyValue Property="Actions"/>
 						<PropertyValue Property="ChartType" EnumMember="UI.ChartType/Donut"/>
+						<PropertyValue Property="Dimensions">
+							<Collection>
+								<PropertyPath>SolcatTxt</PropertyPath>
+							</Collection>
+						</PropertyValue>
 					</Record>
 				</Annotation>
 			</Annotations>
