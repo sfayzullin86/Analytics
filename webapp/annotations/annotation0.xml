@@ -35,7 +35,6 @@
 						</Record>
 						<Record Type="UI.DataField">
 							<PropertyValue Property="Value" Path="PriorityTxt"/>
-							<PropertyValue Property="Criticality" EnumMember="UI.CriticalityType/Critical"/>
 							<PropertyValue Property="Label" String="{@i18n&gt;Priority}"/>
 						</Record>
 						<Record Type="UI.DataField">
