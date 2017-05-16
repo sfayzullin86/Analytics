@@ -17,7 +17,17 @@
 				"uri": "/sap/opu/odata/sap/ZSTS_SRV/",
 				"type": "OData",
 				"settings": {
-					"localUri": "localService/ZSTS_SRV/metadata.xml"
+					"localUri": "localService/ZSTS_SRV/metadata.xml",
+					"annotations": [
+						"annotation0"
+					]
+				}
+			},
+			"annotation0": {
+				"type": "ODataAnnotation",
+				"uri": "annotations/annotation0.xml",
+				"settings": {
+					"localUri": "annotations/annotation0.xml"
 				}
 			}
 		},
