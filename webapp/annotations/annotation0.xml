@@ -48,7 +48,13 @@
 			<Annotations Target="ZSTS_SRV.TICKET">
 				<Annotation Term="UI.Chart" Qualifier="categoriesChart">
 					<Record Type="UI.ChartDefinitionType">
-						<PropertyValue Property="MeasureAttributes"/>
+						<PropertyValue Property="MeasureAttributes">
+							<Collection>
+								<Record Type="UI.ChartMeasureAttributeType">
+									<PropertyValue Property="Measure" PropertyPath="Priority"/>
+								</Record>
+							</Collection>
+						</PropertyValue>
 						<PropertyValue Property="DimensionAttributes">
 							<Collection>
 								<Record Type="UI.ChartDimensionAttributeType">
@@ -62,6 +68,11 @@
 						<PropertyValue Property="Dimensions">
 							<Collection>
 								<PropertyPath>SolcatTxt</PropertyPath>
+							</Collection>
+						</PropertyValue>
+						<PropertyValue Property="Measures">
+							<Collection>
+								<PropertyPath>Priority</PropertyPath>
 							</Collection>
 						</PropertyValue>
 					</Record>
