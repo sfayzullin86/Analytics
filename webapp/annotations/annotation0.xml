@@ -95,7 +95,27 @@
 					</Collection>
 				</Annotation>
 			</Annotations>
-			<Annotations Target="ZSTS_SRV.TICKETCLOSED"/>
+			<Annotations Target="ZSTS_SRV.TICKETCLOSED">
+				<Annotation Term="UI.Chart" Qualifier="closedView">
+					<Record Type="UI.ChartDefinitionType">
+						<PropertyValue Property="MeasureAttributes"/>
+						<PropertyValue Property="DimensionAttributes"/>
+						<PropertyValue Property="Actions"/>
+						<PropertyValue Property="ChartType" EnumMember="UI.ChartType/Donut"/>
+						<PropertyValue Property="Measures">
+							<Collection>
+								<PropertyPath>TicketCount</PropertyPath>
+							</Collection>
+						</PropertyValue>
+						<PropertyValue Property="Dimensions">
+							<Collection>
+								<PropertyPath>SolvedByNameText</PropertyPath>
+								<PropertyPath>RatingTxt</PropertyPath>
+							</Collection>
+						</PropertyValue>
+					</Record>
+				</Annotation>
+			</Annotations>
 		</Schema>
 	</edmx:DataServices>
 </edmx:Edmx>
