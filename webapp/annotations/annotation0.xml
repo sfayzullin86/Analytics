@@ -105,7 +105,18 @@
 								</Record>
 							</Collection>
 						</PropertyValue>
-						<PropertyValue Property="DimensionAttributes"/>
+						<PropertyValue Property="DimensionAttributes">
+							<Collection>
+								<Record Type="UI.ChartDimensionAttributeType">
+									<PropertyValue Property="Dimension" PropertyPath="SolvedByNameText"/>
+									<PropertyValue Property="Role" EnumMember="UI.ChartDimensionRoleType/Series"/>
+								</Record>
+								<Record Type="UI.ChartDimensionAttributeType">
+									<PropertyValue Property="Role" EnumMember="UI.ChartDimensionRoleType/Series"/>
+									<PropertyValue Property="Dimension" PropertyPath="RatingTxt"/>
+								</Record>
+							</Collection>
+						</PropertyValue>
 						<PropertyValue Property="Actions"/>
 						<PropertyValue Property="ChartType" EnumMember="UI.ChartType/Donut"/>
 						<PropertyValue Property="Measures">
