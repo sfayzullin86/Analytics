@@ -149,7 +149,7 @@
 				"settings": {
 					"title": "{{Analytics_card04_title}}",
 					"subTitle": "{{Analytics_card04_subTitle}}",
-					"entitySet": "TICKETCLOSEDSet",
+					"entitySet": "TICKETRATINGSet",
 					"selectionAnnotationPath": "com.sap.vocabularies.UI.v1.SelectionVariant",
 					"chartAnnotationPath": "com.sap.vocabularies.UI.v1.Chart#ratingView",
 					"presentationAnnotationPath": "com.sap.vocabularies.UI.v1.PresentationVariant",
