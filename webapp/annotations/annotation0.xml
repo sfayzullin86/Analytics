@@ -140,7 +140,7 @@
 							<Collection>
 								<Record Type="UI.ChartDimensionAttributeType">
 									<PropertyValue Property="Dimension" PropertyPath="RatingTxt"/>
-									<PropertyValue Property="Role" EnumMember="UI.ChartDimensionRoleType/Series"/>
+									<PropertyValue Property="Role" EnumMember="UI.ChartDimensionRoleType/Category"/>
 								</Record>
 							</Collection>
 						</PropertyValue>
