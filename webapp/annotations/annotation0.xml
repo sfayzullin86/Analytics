@@ -127,6 +127,8 @@
 						</PropertyValue>
 					</Record>
 				</Annotation>
+			</Annotations>
+			<Annotations Target="ZSTS_SRV.TICKETRATING">
 				<Annotation Term="UI.Chart" Qualifier="ratingView">
 					<Record Type="UI.ChartDefinitionType">
 						<PropertyValue Property="MeasureAttributes">
@@ -159,7 +161,6 @@
 					</Record>
 				</Annotation>
 			</Annotations>
-			<Annotations Target="ZSTS_SRV.TICKETRATING"/>
 		</Schema>
 	</edmx:DataServices>
 </edmx:Edmx>
