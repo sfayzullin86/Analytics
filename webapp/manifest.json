@@ -116,6 +116,17 @@
 					"dataPointAnnotationPath": "com.sap.vocabularies.UI.v1.DataPoint",
 					"identificationAnnotationPath": "com.sap.vocabularies.UI.v1.Identification"
 				}
+			},
+			"Analytics_card02": {
+				"model": "ZSTS_SRV",
+				"template": "sap.ovp.cards.table",
+				"settings": {
+					"title": "{{Analytics_card02_title}}",
+					"subTitle": "{{Analytics_card02_subTitle}}",
+					"entitySet": "TICKETBADRATINGSet",
+					"addODataSelect": "false",
+					"annotationPath": "com.sap.vocabularies.UI.v1.LineItem#ticketRatingView"
+				}
 			}
 		}
 	}
