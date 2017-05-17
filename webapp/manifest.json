@@ -127,6 +127,21 @@
 					"addODataSelect": "false",
 					"annotationPath": "com.sap.vocabularies.UI.v1.LineItem#ticketRatingView"
 				}
+			},
+			"Analytics_card03": {
+				"model": "ZSTS_SRV",
+				"template": "sap.ovp.cards.charts.analytical",
+				"settings": {
+					"title": "{{Analytics_card03_title}}",
+					"subTitle": "{{Analytics_card03_subTitle}}",
+					"entitySet": "TICKETCLOSEDSet",
+					"selectionAnnotationPath": "com.sap.vocabularies.UI.v1.SelectionVariant",
+					"chartAnnotationPath": "com.sap.vocabularies.UI.v1.Chart#closedView",
+					"presentationAnnotationPath": "com.sap.vocabularies.UI.v1.PresentationVariant",
+					"selectionPresentationAnnotationPath": "com.sap.vocabularies.UI.v1.SelectionPresentationVariant",
+					"dataPointAnnotationPath": "com.sap.vocabularies.UI.v1.DataPoint",
+					"identificationAnnotationPath": "com.sap.vocabularies.UI.v1.Identification"
+				}
 			}
 		}
 	}
