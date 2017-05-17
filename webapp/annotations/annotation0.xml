@@ -77,6 +77,9 @@
 					</Record>
 				</Annotation>
 			</Annotations>
+			<Annotations Target="ZSTS_SRV.TICKETBADRATING">
+				<Annotation Term="UI.LineItem" Qualifier="ticketRatingView"/>
+			</Annotations>
 		</Schema>
 	</edmx:DataServices>
 </edmx:Edmx>
