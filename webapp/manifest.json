@@ -117,7 +117,7 @@
 					"identificationAnnotationPath": "com.sap.vocabularies.UI.v1.Identification"
 				}
 			},
-			"Analytics_card02": {
+					"Analytics_card02": {
 				"model": "ZSTS_SRV",
 				"template": "sap.ovp.cards.table",
 				"settings": {
