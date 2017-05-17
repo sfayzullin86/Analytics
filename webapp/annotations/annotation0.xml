@@ -78,7 +78,19 @@
 				</Annotation>
 			</Annotations>
 			<Annotations Target="ZSTS_SRV.TICKETBADRATING">
-				<Annotation Term="UI.LineItem" Qualifier="ticketRatingView"/>
+				<Annotation Term="UI.LineItem" Qualifier="ticketRatingView">
+					<Collection>
+						<Record Type="UI.DataField">
+							<PropertyValue Property="Value" Path="TicketId"/>
+						</Record>
+						<Record Type="UI.DataField">
+							<PropertyValue Property="Value" Path="RatingTxt"/>
+						</Record>
+						<Record Type="UI.DataField">
+							<PropertyValue Property="Value" Path="SolvedByNameText"/>
+						</Record>
+					</Collection>
+				</Annotation>
 			</Annotations>
 		</Schema>
 	</edmx:DataServices>
