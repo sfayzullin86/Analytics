@@ -111,10 +111,6 @@
 									<PropertyValue Property="Dimension" PropertyPath="SolvedByNameText"/>
 									<PropertyValue Property="Role" EnumMember="UI.ChartDimensionRoleType/Series"/>
 								</Record>
-								<Record Type="UI.ChartDimensionAttributeType">
-									<PropertyValue Property="Role" EnumMember="UI.ChartDimensionRoleType/Series"/>
-									<PropertyValue Property="Dimension" PropertyPath="RatingTxt"/>
-								</Record>
 							</Collection>
 						</PropertyValue>
 						<PropertyValue Property="Actions"/>
@@ -127,7 +123,6 @@
 						<PropertyValue Property="Dimensions">
 							<Collection>
 								<PropertyPath>SolvedByNameText</PropertyPath>
-								<PropertyPath>RatingTxt</PropertyPath>
 							</Collection>
 						</PropertyValue>
 					</Record>
