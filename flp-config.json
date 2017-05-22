@@ -1,0 +1,35 @@
+{
+    "application": {
+        "id": "",
+        "title": "Analytics.Analytics",
+        "description": "Analytics",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#Analytics-Display",
+        "navigationComponentName": "Analytics",
+        "intentSemanticObject": "Analytics",
+        "intentAction": "Display",
+        "html5ApplicationName": "analytics",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "78ea3155-7749-422d-8d8b-fcfe6abefbce"
+        ],
+        "contentPackages": [
+            "3f3d55cc-a3e2-4f21-9581-e0a5d434dae1"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "Title",
+        "subtitle": "Subtitle",
+        "searchKeywords": "Title,Subtitle",
+        "displayIconUrl": "sap-icon://approvals",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}

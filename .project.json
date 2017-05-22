@@ -9,7 +9,8 @@
     "excludedFolders": [
       "test"
     ],
-    "buildRequired": true
+    "buildRequired": false,
+    "lastBuildDateTime": "Mon, 22 May 2017 06:05:25 GMT"
   },
   "generation": [
     {
@@ -48,5 +49,10 @@
     "notifyBeforePushLevel": "Error",
     "blockPush": false,
     "blockPushLevel": "Error"
+  },
+  "hcpdeploy": {
+    "account": "i313404trial",
+    "name": "analytics",
+    "lastVersionWeTriedToDeploy": "1.0.0"
   }
 }
