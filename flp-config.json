@@ -14,19 +14,19 @@
     },
     "assignment": {
         "groups": [
-            "78ea3155-7749-422d-8d8b-fcfe6abefbce"
+            "35420642-47c8-4135-b3df-c79138c12195"
         ],
         "contentPackages": [
-            "3f3d55cc-a3e2-4f21-9581-e0a5d434dae1"
+            "c4309d03-b819-423d-b68a-e98771a68dbe"
         ],
         "categories": []
     },
     "tile": {
         "type": "StaticTile",
-        "title": "Title",
-        "subtitle": "Subtitle",
-        "searchKeywords": "Title,Subtitle",
-        "displayIconUrl": "sap-icon://approvals",
+        "title": "Team Performance",
+        "subtitle": "Analytics",
+        "searchKeywords": "Team Performance,Analytics",
+        "displayIconUrl": "sap-icon://pie-chart",
         "displayInfoText": "",
         "size": "1x1",
         "serviceURL": "",
